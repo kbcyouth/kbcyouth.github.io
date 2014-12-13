@@ -1,0 +1,107 @@
+.CalendarBox {
+    width: 100%;
+    height:60px
+}
+
+.CalendarNav {
+    display: inline-block;
+}
+
+.NavRight {
+    float: right;
+    margin-right: 25px;
+}
+
+.NavMiddle {
+    color: black;
+    width: 210px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+#MonthTitle {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.CalendarContainer {
+    margin: 0;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.calendarTable {
+    background-color: transparent;
+    color: black;
+    width: 100%;
+    
+    border-collapse: collapse;
+}
+.calendarTable td {
+    text-align: left;
+    width: 96px;
+    height: 96px;
+    padding: 10px;
+}
+.calendarTable td.monthHead {
+    border: 1px solid black;
+    background-color:#ddd;
+    height: 20px;
+    text-transform: uppercase;
+
+}
+.calendarTable td.weekDay {
+    height: 20px;
+}
+.calendarTable td.monthDay {
+    border: 1px solid black;
+}
+.calendarTable td.currentDay {
+    background-color: #e8e5df;
+    border: 1px solid black;
+}
+
+
+
+/* Calendar List Table */ 
+
+.calendarListTable {
+    background-color: transparent;
+    color: black;
+    width: 100%;
+    
+    border-collapse: collapse;
+}
+.calendarListTable td {
+    text-align: left;
+    width: 96px;
+    height: 50px;
+    font-size: 14px;
+    padding: 10px;
+}
+.calendarListTable td.monthHead {
+    border: 1px solid black;
+    background-color:#ddd;
+    height: 20px;
+    text-transform: uppercase;
+    
+}
+.calendarListTable td.weekDay {
+    height: 20px;
+}
+.calendarListTable td.monthDay {
+    border: 1px solid black;
+}
+.calendarListTable td.currentDay {
+    background-color: #e8e5df;
+    border: 1px solid black;
+}
+
+.eventTitle {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}

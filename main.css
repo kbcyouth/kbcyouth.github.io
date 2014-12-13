@@ -1,0 +1,223 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body, html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;/*    font-family: "GillSans", sans-serif;*/
+    font-size: 16px;
+    font-weight: 300;
+    
+/*    background-color: blueviolet;*/
+/*    background-size: contain;*/
+/*
+    background: #cebe29;
+    background: -moz-linear-gradient(-45deg, #75ce29 0%, #2989d8 33%, #9b1f50 71%, #89b4ff 91%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#75ce29), color-stop(33%,#2989d8), color-stop(71%,#9b1f50), color-stop(91%,#89b4ff));
+    background: -webkit-linear-gradient(-45deg, #75ce29 0%,#2989d8 33%,#9b1f50 71%,#89b4ff 91%);
+    background: -o-linear-gradient(-45deg, #75ce29 0%,#2989d8 33%,#9b1f50 71%,#89b4ff 91%);
+    background: -ms-linear-gradient(-45deg, #75ce29 0%,#2989d8 33%,#9b1f50 71%,#89b4ff 91%);
+    background: linear-gradient(135deg, #75ce29 0%,#2989d8 33%,#9b1f50 71%,#89b4ff 91%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebe29', endColorstr='#89b4ff',GradientType=1 );
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+*/
+}
+
+.backgroundImg {
+    background: url('img/background.png');
+    /* background-repeat: no-repeat; */
+    background-position: center top;
+    background-size: 100% auto;
+    height: 450px;
+    width: 100%;
+    position: absolute;
+}
+
+.logo {
+    background: url('img/bird-logo.png');
+    position: absolute;
+    left: 0;
+    height: 200px;
+    width: 200px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+/*overlay*/
+.bgCover { 
+    background:#000; 
+    position:fixed; 
+    left:0; 
+    top:0; 
+    display:none; 
+}
+.overlayBox {
+    position:fixed;
+    display:none;
+    width:300px;
+    height:300px;
+    background:#fff;
+    border-radius: 5px;
+}
+
+.eventsHeader {
+    height: 30px;
+    padding: 15px 0 5px 15px;
+    background-color: #EEE;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px dashed black;
+}
+
+.eventsBox {
+    padding: 20px;
+    padding-bottom: 0;
+    height: 228px;
+    overflow: scroll;
+}
+
+.eventDescription {
+    font-size: 12px;
+    padding: 5px 0 20px 0;
+}
+
+.TopBanner {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    height: 120px;
+    background-color: #EEEEEE;
+    opacity: 0.5;
+}
+
+.BannerLogo {
+    font-size: 4em;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.MainContainer {
+    padding: 1%;
+    padding-top: 130px;
+    width: 98%;
+    position: relative;
+}
+
+.navButton {
+    padding:10px;
+    background: white;
+    border: 1px solid #CCC;   
+    border-radius: 5px;
+}
+
+.christmas_icon {
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-image: url('img/event_icons/christmas_tree.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+
+.youth_icon {
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-image: url('img/event_icons/knife_fork_spoon.png');
+    background-repeat: no-repeat;
+    background-size: 50px;   
+}
+
+.church_icon {
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-image: url('img/event_icons/tree.png');
+    background-repeat: no-repeat;
+    background-size: 50px;   
+}
+
+.contact {
+    position: absolute;
+    top: 86px;
+    cursor: pointer;
+    right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.leaderBox {
+    overflow: hidden;
+    height: 249px;
+    overflow: scroll;
+}
+
+.leader {
+    border-bottom: 1px dashed #CCC;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+
+/* Type Colours */
+
+.YG {
+    background-color: #ff99bd;
+}
+
+.BYM {
+    background-color: #ff7200;
+}
+
+.NC {
+    background-color: #c6d105;
+}
+
+.MWG {
+    background-color: #ff0090;
+}
+
+.GN {
+    background-color: #09d7d5;
+}
+
+.PH {
+    background-color: #d2c600;
+}
+
