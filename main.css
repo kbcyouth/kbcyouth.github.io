@@ -48,7 +48,7 @@ body, html {
 }
 
 .backgroundImg {
-    background: url('img/background.png');
+    background: url('img/Background.png');
     /* background-repeat: no-repeat; */
     background-position: center top;
     background-size: 100% auto;
