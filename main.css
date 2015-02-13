@@ -194,7 +194,10 @@ h5 {
     font-size: 12px;
 }
 
+.leaderBox .leader:last-child{
+    border-bottom: none;
 
+}
 /* Type Colours */
 
 .YG {

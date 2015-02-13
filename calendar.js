@@ -141,7 +141,7 @@ var Calendar = {
     openContactOverlay: function() {
          
         var leadersDets = leadersDetails();
-        var overlayhtml = '<div class="eventsHeader"><h2>Peoples Contact Details</h2></div><div class="leaderBox">';
+        var overlayhtml = '<div class="eventsHeader"><h2>Contact Details</h2></div><div class="leaderBox">';
         
         _.each(leadersDets, function(l){
             overlayhtml += '<div class="leader"><h5>' + l.Name + '</h5><div>' + l.Phone + '</div><div>' + l.Email + '</div></div>'
@@ -363,12 +363,29 @@ function dummyData() {
                     ]
                 },
              2015: {
-                September: [
+                February: [
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/2/11", Description: "", Description2: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/2/18", Description: "", Description2: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Groups Night", Type: "GN", StartTime: "TBC", EndTime: "Late", Date: "2015/2/20", Description: ""},
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/2/25", Description: "", Description2: "" }
+                    ],
+                March:[
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/4", Description: "", Description2: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/11", Description: "", Description2: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/18", Description: "", Description2: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/25", Description: "", Description2: "" }
                         
                     ],
-                October:[
+                April:[
+                    {Id: "", Icon: "youth_icon", Name: "Easter Camp", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/4/3", Description: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Easter Camp", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/4/4", Description: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Easter Camp", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/4/5", Description: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Easter Camp", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/4/6", Description: "" }
+                    
+                    ],
+                May:[
                         
-                    ]    
+                    ]
                 }
             }
     }
@@ -378,8 +395,8 @@ function dummyData() {
 
 function leadersDetails() {
     var data = [
-        { Name: "James", Phone: "021 838 034", Email: "james@kbc.org.nz" },
-        { Name: "Alex", Phone: "027 506 2565", Email: "" },
+        { Name: "Alex", Phone: "027 506 2565", Email: "karoribyc@gmail.com" },
+        { Name: "Chris", Phone: "021 136 9967", Email: "karoribyc@gmail.com" },
         { Name: "Freddie", Phone: "027 393 5503", Email: "" },
         { Name: "Reuben", Phone: "027 753 9283", Email: "" },
         { Name: "Grace", Phone: "027 775 8692", Email: "" },
