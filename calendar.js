@@ -364,16 +364,16 @@ function dummyData() {
                 },
              2015: {
                 February: [
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/2/11", Description: "", Description2: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/2/18", Description: "", Description2: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/2/11", Description: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/2/18", Description: "" },
                     {Id: "", Icon: "youth_icon", Name: "Groups Night", Type: "GN", StartTime: "TBC", EndTime: "Late", Date: "2015/2/20", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/2/25", Description: "", Description2: "" }
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/2/25", Description: "" }
                     ],
                 March:[
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/4", Description: "", Description2: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/11", Description: "", Description2: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/18", Description: "", Description2: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/25", Description: "", Description2: "" }
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/4", Description: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/11", Description: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/18", Description: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/25", Description: "" }
                         
                     ],
                 April:[
@@ -381,41 +381,41 @@ function dummyData() {
                     {Id: "", Icon: "youth_icon", Name: "Easter Camp", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/4/4", Description: "" },
                     {Id: "", Icon: "youth_icon", Name: "Easter Camp", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/4/5", Description: "" },
                     {Id: "", Icon: "youth_icon", Name: "Easter Camp", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/4/6", Description: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/4/22", Description: "", Description2: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Mid Week Gathering", Type: "MWG", StartTime: "6:30", EndTime: "8:30", Date: "2015/4/29", Description: "", Description2: "" }
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/4/22", Description: "" },
+                    {Id: "", Icon: "youth_icon", Name: "Mid Week Gathering", Type: "MWG", StartTime: "6:30", EndTime: "8:30", Date: "2015/4/29", Description: "Talk - The Basics of the Bible"}
                     
                     ],
                 May:[                    
-                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/3", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/6", Description: "", Description2: "" },
-                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/10", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/13", Description: "", Description2: "" },
-                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/17", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/20", Description: "", Description2: "" },
-                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/24", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Mid Week Gathering", Type: "MWG", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/27", Description: "", Description2: "" }           
+//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/3", Description: ""},
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/6", Description: "Talk - Living out a purposeful faith" },
+//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/10", Description: ""},
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/13", Description: "Talk - Identity in God" },
+//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/17", Description: ""},
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/20", Description: "Talk - Loving your friends, family, and enemies"},
+//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/24", Description: ""},
+                    {Id: "", Icon: "youth_icon", Name: "Mid Week Gathering", Type: "MWG", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/27", Description: "Talk - How you hear God's voice - Neville Bartley" }           
                     ],
                  June:[
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/3", Description: "" },
-                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/7", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/10", Description: "" },
-                    {Id: "", Icon: "", Name: "BYM", Type: "BYM", StartTime: "7", EndTime: "9", Date: "2015/6/12", Description: "Details to come" },
-                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/14", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/17", Description: "" },
-                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/21", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/24", Description: "" },
-                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/28", Description: ""}
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/3", Description: "Talk - Being yourself in this community" },
+//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/7", Description: ""},
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/10", Description: "Talk - What to do with doubt" },
+                    {Id: "", Icon: "", Name: "BYM", Type: "BYM", StartTime: "7", EndTime: "9", Date: "2015/6/12", Description: "BYM combined event - details to come" },
+//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/14", Description: ""},
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/17", Description: "Talk - Changing how you live" },
+//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/21", Description: ""},
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/24", Description: "Talk - Faith impacts your attitude" }//.
+//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/28", Description: ""}
                  ],
                  July: [
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/1", Description: "" },
-                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/5", Description: ""},
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/1", Description: "Talk - Playing your part in social justice" },
+//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/5", Description: ""},
                     {Id: "", Icon: "youth_icon", Name: "Xtend", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/7/6", Description: "" },
                     {Id: "", Icon: "youth_icon", Name: "Xtend", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/7/7", Description: "" },
                     {Id: "", Icon: "youth_icon", Name: "Xtend", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/7/8", Description: "" },
                     {Id: "", Icon: "youth_icon", Name: "Xtend", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/7/9", Description: "" },
                     {Id: "", Icon: "youth_icon", Name: "Xtend", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/7/10", Description: "" },
-                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/12", Description: ""},
-                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/19", Description: ""}
+//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/12", Description: ""},
+//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/19", Description: ""}
                     //{Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/22", Description: "" },  
                  ]
                 }
