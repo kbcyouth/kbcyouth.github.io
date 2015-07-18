@@ -414,10 +414,26 @@ function dummyData() {
                     {Id: "", Icon: "youth_icon", Name: "Xtend", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/7/8", Description: "" },
                     {Id: "", Icon: "youth_icon", Name: "Xtend", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/7/9", Description: "" },
                     {Id: "", Icon: "youth_icon", Name: "Xtend", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/7/10", Description: "" },
-//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/12", Description: ""},
-//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/19", Description: ""}
-                    //{Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/22", Description: "" },  
-                 ]
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/22", Description: "Xtend sharing and catch up" },
+                    {Id: "", Icon: "youth_icon", Name: "BYM Combined", Type: "BYM", StartTime: "6:30", EndTime: "10:00", Date: "2015/7/26", Description: "BYM Combined at Hutt City" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group - MWG", Type: "MWG", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/29", Description: "Sharing baptisim testimonies" }
+                 ],
+                 August: [
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/8/5", Description: "Why do we share" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/8/12", Description: "Big Question Forum" },
+                    {Id: "", Icon: "", Name: "K - Serve", Type: "GN", StartTime: "TBC", EndTime: "TBC", Date: "2015/8/15", Description: "Awesomeness will happen today"},
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/8/19", Description: "Awesomeness will be shared" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/8/26", Description: "Sharing" }
+                 ],
+                 September: [
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/9/2", Description: "More Sharing" },
+                    {Id: "", Icon: "youth_icon", Name: "KBC Quiz", Type: "NC", StartTime: "TBC", EndTime: "TBC", Date: "2015/9/5", Description: "A Quiz night that will probably blow your mind" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/9/9", Description: "Sharing"},
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/9/16", Description: "Sharing" },
+                    {Id: "", Icon: "youth_icon", Name: "Makara Overnighter", Type: "GN", StartTime: "All Day", EndTime: "All Day", Date: "2015/9/19", Description: "Details to come" },
+                    {Id: "", Icon: "youth_icon", Name: "Makara Overnighter", Type: "GN", StartTime: "All Day", EndTime: "All Day", Date: "2015/9/20", Description: "Details to come" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/9/23", Description: "Sharing" }
+                 ],
                 }
             }
     }
