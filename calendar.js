@@ -422,7 +422,7 @@ function dummyData() {
                     {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/8/5", Description: "Why do we share" },
                     {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/8/12", Description: "Big Question Forum" },
                     {Id: "", Icon: "", Name: "K - Serve", Type: "GN", StartTime: "TBC", EndTime: "TBC", Date: "2015/8/15", Description: "Awesomeness will happen today"},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/8/19", Description: "Awesomeness will be shared" },
+                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "MWG", StartTime: "6:30", EndTime: "8:30", Date: "2015/8/19", Description: "Awesomeness will be shared" },
                     {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/8/26", Description: "Sharing" }
                  ],
                  September: [
