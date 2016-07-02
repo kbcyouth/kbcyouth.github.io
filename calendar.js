@@ -335,80 +335,12 @@ function calendar(date, Events) {
 function dummyData() {
     var data = {
         Years: 
-            { 2014: {
-                October:[
-                        {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2014/10/22", Description: "Respectful relationships", Description2: "Respectful relationships" },
-                        {Id: "", Icon: "", Name: "Mid Week Church", Type: "MWG", StartTime: "6:30", EndTime: "8:30", Date: "2014/10/29", Description: "Alex - Jesus' Closeness with God", Description2: "Alex - Jesus' Closeness with God"}
-                        
-                    ],
-                 November: [
-                        {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2014/11/2", Description: "Prayers of the Courageous - Esther's Courage"},
-                        {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2014/11/5", Description: "Reuben - Jesus' Mercy"},
-                        {Id: "", Icon: "youth_icon", Name: "Boys Night", Type: "GN", StartTime: "TBC", EndTime: "Late", Date: "2014/11/7", Description: "Boy's Night - Pulse crossover - Details to come! "},
-                        {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2014/11/9", Description: "Prayers of the Courageous - Joseph's integrity "},           
-                        {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2014/11/12", Description: "Attitude parents and youth"},
-                        {Id: "", Icon: "youth_icon", Name: "Girls Night", Type: "GN", StartTime: "TBC", EndTime: "Late", Date: "2014/11/15", Description: "Girl's Night - Pulse crossover - Details to come"},
-                        {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "7:30", EndTime: "9:00", Date: "2014/11/17", Description: "Monday Night Church - Special worship service - SOAK - 7.30pm @ KBC"},
-                        {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2014/11/19", Description: "Abi - Jesus' Friendships"},
-                        {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2014/11/23", Description: "Nehimiah's Commitment to Celebration"},
-                        {Id: "", Icon: "", Name: "Mid Week Church", Type: "MWG", StartTime: "6:30", EndTime: "8:30", Date: "2014/11/26", Description: "Chris - Jesus' Servant leadership"},
-                        {Id: "", Icon: "", Name: "BYM Amazing race", Type: "GN", StartTime: "3:15pm", EndTime: "7ish", Date: "2014/11/30", Description: "BYM Amazing race - Meet at KBC, bring $5"},
-                        {Id: "", Icon: "", Name: "Easter camp Road show", Type: "GN", StartTime: "7:15pm", EndTime: "10:00pm", Date: "2014/11/30", Description: "Easter camp Road show - 7.30pm @ Cental Baptist - Home by 10pm"}                    ],
-                 December: [
-                        {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2014/12/3", Description: "Last Youth of 2014- Grace - Jesus putting people first"},
-                        {Id: "", Icon: "", Name: "End of Year Event", Type: "GN", StartTime: "6:00", EndTime: "11:00", Date: "2014/12/6", Description: "End of Year Event - Details to come - Keep this date free"},
-                        {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2014/11/7", Description: "The last night church of the year"},
-                        {Id: "", Icon: "christmas", Name: "Christmas Day", Type: "PH", StartTime: "12:00", EndTime: "12:00", Date: "2014/12/25", Description: ""}
-                        
-                    ]
-                },
-             2015: {
-                February: [
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/2/11", Description: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/2/18", Description: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Groups Night", Type: "GN", StartTime: "TBC", EndTime: "Late", Date: "2015/2/20", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/2/25", Description: "" }
-                    ],
-                March:[
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/4", Description: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/11", Description: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/18", Description: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/3/25", Description: "" }
-                        
-                    ],
-                April:[
-                    {Id: "", Icon: "youth_icon", Name: "Easter Camp", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/4/3", Description: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Easter Camp", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/4/4", Description: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Easter Camp", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/4/5", Description: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Easter Camp", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/4/6", Description: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/4/22", Description: "" },
-                    {Id: "", Icon: "youth_icon", Name: "Mid Week Gathering", Type: "MWG", StartTime: "6:30", EndTime: "8:30", Date: "2015/4/29", Description: "Talk - The Basics of the Bible"}
-                    
-                    ],
-                May:[                    
-//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/3", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/6", Description: "Talk - Living out a purposeful faith" },
-//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/10", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/13", Description: "Talk - Identity in God" },
-//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/17", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/20", Description: "Talk - Loving your friends, family, and enemies"},
-//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/24", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Mid Week Gathering", Type: "MWG", StartTime: "6:30", EndTime: "8:30", Date: "2015/5/27", Description: "Talk - How you hear God's voice - Neville Bartley" }           
-                    ],
-                 June:[
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/3", Description: "Talk - Being yourself in this community" },
-//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/7", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/10", Description: "Talk - What to do with doubt" },
-                    {Id: "", Icon: "", Name: "BYM", Type: "BYM", StartTime: "7", EndTime: "9", Date: "2015/6/12", Description: "BYM combined event - details to come" },
-//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/14", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/17", Description: "Talk - Changing how you live" },
-//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/21", Description: ""},
-                    {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/24", Description: "Talk - Faith impacts your attitude" }//.
-//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/6/28", Description: ""}
-                 ],
-                 July: [
+        { 
+            2015: {
+
+                July: [
                     {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/1", Description: "Talk - Playing your part in social justice" },
-//                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/5", Description: ""},
+    //                    {Id: "", Icon: "church_icon", Name: "Night Church", Type: "NC", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/5", Description: ""},
                     {Id: "", Icon: "youth_icon", Name: "Xtend", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/7/6", Description: "" },
                     {Id: "", Icon: "youth_icon", Name: "Xtend", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/7/7", Description: "" },
                     {Id: "", Icon: "youth_icon", Name: "Xtend", Type: "BYM", StartTime: "All Day", EndTime: "All Day", Date: "2015/7/8", Description: "" },
@@ -417,7 +349,7 @@ function dummyData() {
                     {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/22", Description: "Xtend sharing and catch up" },
                     {Id: "", Icon: "youth_icon", Name: "BYM Combined", Type: "BYM", StartTime: "6:30", EndTime: "10:00", Date: "2015/7/26", Description: "BYM Combined at Hutt City" },
                     {Id: "", Icon: "youth_icon", Name: "Youth Group - MWG", Type: "MWG", StartTime: "6:30", EndTime: "8:30", Date: "2015/7/29", Description: "Sharing baptisim testimonies" }
-                 ],
+                ],
                  August: [
                     {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/8/5", Description: "Why do we share" },
                     {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/8/12", Description: "Big Question Forum" },
@@ -433,9 +365,12 @@ function dummyData() {
                     {Id: "", Icon: "youth_icon", Name: "Makara Overnighter", Type: "GN", StartTime: "All Day", EndTime: "All Day", Date: "2015/9/19", Description: "Details to come" },
                     {Id: "", Icon: "youth_icon", Name: "Makara Overnighter", Type: "GN", StartTime: "All Day", EndTime: "All Day", Date: "2015/9/20", Description: "Details to come" },
                     {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2015/9/23", Description: "Sharing" }
-                 ],
-                }
-            }
+                ]
+            },
+            2016: {July: [
+                {Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2016/7/6", Description: "Last week of term!" },
+            ]}
+        }
     }
     
     return data;
