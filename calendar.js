@@ -372,7 +372,7 @@ function dummyData() {
             		{Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2016/7/27", Description: "Sex, dating, relating" }
             	],
             	August: [
-            		{Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2016/8/10", Description: "Whanau night (night in the community)" },
+            		{Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2016/8/3", Description: "Whanau night (night in the community)" },
             		{Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2016/8/10", Description: "Something Awesome!" },
             		{Id: "", Icon: "youth_icon", Name: "Combined", Type: "BYM", StartTime: "tbc", EndTime: "tbc", Date: "2016/8/17", Description: "Combined Manguraki Baptist - Olympic themed tbc" },
             		{Id: "", Icon: "youth_icon", Name: "Youth Group", Type: "YG", StartTime: "6:30", EndTime: "8:30", Date: "2016/8/24", Description: "Something Awesome!" },
