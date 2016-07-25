@@ -392,15 +392,7 @@ function dummyData() {
 
 function leadersDetails() {
     var data = [
-        { Name: "Alex", Phone: "027 506 2565", Email: "karoribyc@gmail.com" },
-        { Name: "Chris", Phone: "021 136 9967", Email: "karoribyc@gmail.com" },
-        { Name: "Freddie", Phone: "027 393 5503", Email: "" },
-        { Name: "Reuben", Phone: "027 753 9283", Email: "" },
-        { Name: "Grace", Phone: "027 775 8692", Email: "" },
-        { Name: "Abi", Phone: "021 026 64568", Email: "" },
-        { Name: "Esther", Phone: "027 841 3432", Email: "" },
-        { Name: "Nat", Phone: "027 208 4443", Email: "" }
-        
+        { Name: "Alex", Phone: "027 506 2565"}
     ];
     return data;
 }
